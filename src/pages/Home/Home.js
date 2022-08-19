@@ -8,7 +8,7 @@ import Subscription from '../../components/Subscription/Subscription';
 const Home = () => {
     return (
         <div>
-            <Banner/>
+            {/* <Banner/> */}
             <Products/>
             <SpecialOffer/>
             <Subscription/>

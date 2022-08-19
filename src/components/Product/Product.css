@@ -1,0 +1,26 @@
+.shadow.mb-4.card.product-card {
+    height: 800px;
+}
+p.card-text {
+    font-size: 18px;
+}
+img.card-img-top {
+    width: 317px;
+    height: auto;
+}
+.prd-btn{
+    padding: 10px 15px;
+    color: yellowgreen;
+    background-color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    transition: .5s;
+}
+a.prd-btn.card-link:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: .5s;
+}
