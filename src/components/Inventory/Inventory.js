@@ -38,18 +38,17 @@ const Inventory = () => {
   // console.log(typeof orderQuantity);
   return (
     <div className="container">
-      <div className="selected-product w-50 mx-auto my-5">
+      <div style={{display:"flex", alignItems:"center"}} className="selected-product w-50 mx-auto my-5">
         {/* <h1>{product.id}</h1>
                <h3>{product.name}</h3> */}
         <Card className="shadow">
           <Card.Img variant="top" src={inventory.img} />
           <Card.Body>
-            <Card.Title>Name : {inventory.name}</Card.Title>
-            {/* <Card.Text>Quantity : {inventory.quantity}</Card.Text> */}
-            <Card.Text>Quantity : {orderQuantity}</Card.Text>
-            <Card.Text>Price : $ {inventory.price}</Card.Text>
-            <Card.Text> Desc : {inventory.short_description}</Card.Text>
-            <Card.Text> Supplier : {inventory.supplier_name}</Card.Text>
+            <Card.Title>Name : {inventory.course_name}</Card.Title>
+       
+            <Card.Text>Price : $ {inventory.course_rate}</Card.Text>
+
+       
           </Card.Body>
 
           <Card.Body>
@@ -58,7 +57,7 @@ const Inventory = () => {
               onClick={reducedQuantity}
               className="prd-btn btn btn-link"
             >
-              Delivered
+              Confirm
             </Card.Link>
           </Card.Body>
         </Card>
