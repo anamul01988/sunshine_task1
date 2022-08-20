@@ -18,21 +18,21 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="col-md-3 col-6">
-                    <h4 className='list-title'>Products</h4>
+                    <h4 className='list-title'>Services</h4>
                     <ul className='list-item'>
-                        <li><Link to="">Televisions</Link></li>
-                        <li><Link to="">Fridges</Link></li>
-                        <li><Link to="">Washing Machines</Link></li>
-                        <li><Link to="">Laptop</Link></li>
-                        <li><Link to="">Watch</Link></li>
-                        <li><Link to="">Monitor</Link></li>
-                        <li><Link to="">Mobile Phones</Link></li>
+                        <li><Link to="">Php</Link></li>
+                        <li><Link to="">Java</Link></li>
+                        <li><Link to=""> Machine Learning</Link></li>
+                        <li><Link to="">React</Link></li>
+                        <li><Link to="">Mysql</Link></li>
+                        <li><Link to="">Javascript</Link></li>
+                        <li><Link to="">Ruby</Link></li>
                     </ul>
                 </div>
                 <div className="col-md-3 col-6">
                     <h4 className='list-title'>Help</h4>
                     <ul className='list-item'>
-                        <li><Link to="">Customer Service</Link></li>
+                        <li><Link to="">Client Service</Link></li>
                         <li><Link to="">My Account</Link></li>
                         <li><Link to="">Find a Store</Link></li>
                         <li><Link to="">Legal & Privacy</Link></li>
@@ -66,7 +66,7 @@ const Footer = () => {
              </div>
              <div className="col-md-6 col-12">
                <h3 className="">
-                 Copyright © 2022 electronic ware house, <span className="footer-span">All rights reserved</span>.
+                 Copyright © 2022  Ed-tech, <span className="footer-span">All rights reserved</span>.
                </h3>
              </div>
            </div>

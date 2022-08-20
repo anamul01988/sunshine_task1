@@ -44,13 +44,13 @@ const Banner = () => {
             <img src={slide1} className="d-block" alt="slide1" />
             <div className="carousel-caption carousel-content  d-md-block text-dark">
               <h5>
-                Smart Electronic <br />
-                Monitor
+                Our Best It Course & <br />
+                Gift
               </h5>
 
-              <p>Up to 40% off on electronic monitor</p>
+              <p>Up to 40% off on Java course</p>
               <div className="btn-carousel d-flex ">
-                <button className="carousel-btn">View More</button>
+                <button className="carousel-btn">Read More</button>
               </div>
             </div>
           </div>
@@ -58,11 +58,11 @@ const Banner = () => {
             <img src={slide2} className="d-block " alt="slide2" />
             <div className="carousel-caption carousel-content d-md-block text-dark">
               <h5>
-                The Gold <br /> standard of Watch
+                The Gold gift of <br /> standard of Course
               </h5>
-              <p>Up to 30% off on digital watch</p>
+              <p>Up to 30% off on System Programme</p>
               <div className="btn-carousel d-flex ">
-                <button className="carousel-btn">View More</button>
+                <button className="carousel-btn">Read More</button>
               </div>
             </div>
           </div>
@@ -70,13 +70,13 @@ const Banner = () => {
             <img src={slide3} className="d-block" alt="slide3" />
             <div className="carousel-caption carousel-content d-md-block text-dark">
               <h5>
-                Electronic best <br />
-                accessories
+                Our Best Popular Course and  <br />
+                Gift
               </h5>
               <p>Up to 40% off</p>
    
               <div className="btn-carousel d-flex ">
-                <button className="carousel-btn">View More</button>
+                <button className="carousel-btn">Read More</button>
               </div>
             
             </div>

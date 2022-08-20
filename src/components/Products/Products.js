@@ -12,7 +12,7 @@ const Products = () => {
         <div className='container'>
             <div className="products-content">
                 <h2 className='products-title'>New Arrivals</h2>
-                <p>Browse the collection of our prodcuts and top interesting products. Definitely find what you are looking for.</p>
+                <p>Browse the collection of our services and top interesting course. Definitely find what you are looking for.</p>
             </div>
             <div className="row my-4">
                {

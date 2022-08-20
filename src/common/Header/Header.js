@@ -14,7 +14,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link className="nav-link link" to="/">
-            E-house
+            Ed-Tech
           </Link>
           <button
             className="navbar-toggler"

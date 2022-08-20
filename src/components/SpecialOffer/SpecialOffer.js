@@ -1,12 +1,12 @@
 import React from 'react';
 import './SpecialOffer.css';
-import img1 from '../../asset/specialOffer/img1.jpg'
-import img2 from '../../asset/specialOffer/img2.jpg'
-import img4 from '../../asset/specialOffer/img4.jpg'
-import img3 from '../../asset/specialOffer/img3.jpg'
-import img5 from '../../asset/specialOffer/img5.jpg'
-import img6 from '../../asset/specialOffer/img6.jpg'
-import img7 from '../../asset/specialOffer/img7.jpg'
+import img1 from '../../asset/specialOffer/c0.png'
+import img2 from '../../asset/specialOffer/c1.jpg'
+import img4 from '../../asset/specialOffer/c2.png'
+import img3 from '../../asset/specialOffer/c3.png'
+import img5 from '../../asset/specialOffer/c4.png'
+import img6 from '../../asset/specialOffer/c5.png'
+import img7 from '../../asset/specialOffer/c6.jpg'
 const SpecialOffer = () => {
     return (
         <div className='container my-5 '>
@@ -21,8 +21,8 @@ const SpecialOffer = () => {
                     </div>
                     <div className="offer-content text-center">
                     <img src={img1} alt="" />
-                    <h4>Game Console Controller <br />
-                    +USB 3.0 Cable</h4>
+                    <h4>Your Game Changer Course  <br />
+                    for 3.0 web</h4>
                     <p> <span className='line-through'>$ 900</span>$ 790</p>
                     </div>
                    
@@ -43,17 +43,17 @@ const SpecialOffer = () => {
                             <div className="col-md-4 col-6">
                                 <div className="card shadow mb-4 mt-2">
                                     <h5>
-                                        Wireless Audio Recorder
+                                        Machine Learning course
                                     </h5>
-                                    <img src={img2} alt="" />
+                                    <img style={{height:"76px"}} src={img2} alt="" />
                                     <p>$ 685</p>
                         
                                 </div>
                                 <div className="card shadow">
                                     <h5>
-                                        Smartphone 6s 32gb LTE
+                                        Express js course
                                     </h5>
-                                    <img src={img4} alt="" />
+                                    <img style={{height:"100px"}} src={img4} alt="" />
                                     <p>$ 685</p>
                         
                                 </div>
@@ -61,17 +61,17 @@ const SpecialOffer = () => {
                             <div className="col-md-4 col-6">
                                 <div className="card shadow mb-4 mt-2">
                                     <h5>
-                                        Tablet White EliteBook...
+                                        Mysql course...
                                     </h5>
-                                    <img src={img3} alt="" />
+                                    <img style={{height:"100px"}} src={img3} alt="" />
                                     <p>$ 1944</p>
                         
                                 </div>
                                 <div className="card shadow">
                                     <h5>
-                                        Widescreen NX Mini F...
+                                        React course
                                     </h5>
-                                    <img src={img5} alt="" />
+                                    <img style={{height:"100px"}} src={img5} alt="" />
                                     <p>$ 595</p>
                         
                                 </div>
@@ -79,17 +79,17 @@ const SpecialOffer = () => {
                             <div className="col-md-4 col-6">
                                 <div className="card shadow mb-4 mt-2">
                                     <h5>
-                                        Purple Solo Wireless
+                                      Mongodb Course
                                     </h5>
-                                    <img src={img6} alt="" />
+                                    <img style={{height:"100px"}} src={img6} alt="" />
                                     <p>$ 323</p>
                         
                                 </div>
                                 <div className="card shadow">
                                     <h5>
-                                        Full color LaserJet p...
+                                        Php Course
                                     </h5>
-                                    <img src={img7} alt="" />
+                                    <img style={{height:"100px"}} src={img7} alt="" />
                                     <p>$ 333</p>
                         
                                 </div>
