@@ -1,12 +1,15 @@
 .shadow.mb-4.card.product-card {
-    height: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 p.card-text {
     font-size: 18px;
 }
 img.card-img-top {
-    width: 317px;
-    height: auto;
+    width: 217px;
+    height: 160px;
 }
 .prd-btn{
     padding: 10px 15px;
